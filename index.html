@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch ⏱️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="theme-toggle-btn">🌙</button>
+    <div class="container">
+        <h1>Stopwatch ⏱️</h1>
+        <div class="display">00:00:00.00</div>
+        <div class="buttons">
+            <button class="start">Start</button>
+            <button class="stopbtn">Stop</button>
+            <button class="lap">Lap</button>
+            <button class="reset">Reset</button>
+        </div>
+        <div class="laps-container">
+            <h2>Laps</h2>
+            <ul class="laps-list"></ul>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
